@@ -1,0 +1,21 @@
+[project]
+name = "T212"
+authors = [
+    {name = "Thomas Bourlard", email = "tombour@gmail.com"},
+]
+description = "API client for Trading212"
+
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas"
+    "trading212-rest"
+]
+
+version = "0.1.0"
+
+[project.urls]
+homepage = "https://github.com/th0ma5b/T212"
+
+[tool.setuptools.packages.find]
+["T212*"]
